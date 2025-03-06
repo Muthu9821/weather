@@ -1,0 +1,64 @@
+body {
+    background-color: lightblue;
+  }
+  
+  #item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #search {
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
+  #btn {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+  }
+  
+  #locationBtn {
+    padding: 10px;
+    background-color: green;
+    color: rgb(14, 3, 3);
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+  }
+  
+  #cont {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .content-table th, .content-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tempMax, .tempMin {
+    font-size: 1.2em;
+  }
+  
